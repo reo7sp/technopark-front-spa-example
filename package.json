@@ -1,0 +1,14 @@
+{
+  "name": "technopark-front-spa-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "build-templates": "mkdir -p public/templates/build && handlebars public/templates/*.html -f public/templates/build/all.js -m"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "handlebars": "^4.1.0"
+  }
+}

@@ -1,0 +1,23 @@
+<p><a href="/">Назад</a></p>
+
+<div class="leaderboard">
+    <table class="leaderboard__table" border="1">
+        <tr>
+            <th>Name</th>
+            <th>Score</th>
+        </tr>
+        {{#each people}}
+        <tr>
+            <td>{{this.name}}</td>
+            <td>{{this.score}}</td>
+        </tr>
+        {{/each}}
+    </table>
+
+    <br>
+
+    <p>Page {{pageNum}} of {{pagesCount}}</p>
+
+    <button class="leaderboard__back-btn">Back</button>
+    <button class="leaderboard__next-btn">Next</button>
+</div>
