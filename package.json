@@ -7,7 +7,7 @@
     "start": "node server/server.js",
     "build-templates": "mkdir -p public/templates/build && handlebars public/templates/*.html -f public/templates/build/all.js -m"
   },
-  "dependencies": {
+  "devDependencies": {
     "express": "^4.16.4",
     "handlebars": "^4.1.0"
   }
